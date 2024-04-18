@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+<<<<<< HEAD
 Repositório parte do TCC de desenvolvimento FullStack
 =======
 Repositório parte do TCC de desenvolvimento FullStack
