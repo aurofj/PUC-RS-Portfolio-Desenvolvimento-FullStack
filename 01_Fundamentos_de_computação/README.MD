@@ -1,7 +1,11 @@
-Este portifólio está dividido em três grupos de disciplinas que cobrem todo o curso
+Este tópico é composto pelas seguintes disciplinas:
 
-1) Fundamentos de computação, com foco nos conhecimentos técnicos básicos;
+1) Fundamentos de computação e algoritmos
 
-2) Tecnologias de desenvolvimento, tendo foco cujo objetivo é aprofundar as habilidades;
+2) Programação orientada a objetos
 
-3) Tópicos avançados, que busca proporcionar um diferencial profissional.
+3) DevOps básico
+
+4) Programação para web
+
+5) Bancos de dados relacionais.
