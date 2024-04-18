@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Fila</title>
+</head>
+<body>
+    
+
+<script>
+    console.log('[Fila/Queue]');
+    // Qualquer tipo de dado
+    // Um atrás da outra, ordem importa
+    // Quem entra primeiro, sai primeiro
+
+    var fila =[
+        'scripts.js',
+        'style.css',
+        'imagem.png',
+    ];
+    // Adiciona alguem na fila
+    fila.push('doquinho.png')
+    // Remove o primeiro da fila
+    fila.shift();
+    // =========================
+    // Receita para criasr filas 
+    // =========================
+    // enqueue - enfilera
+    // dequeue - desenfilera
+
+    class Queue { // Class: Receita para criar objetos
+        constructor() {
+            this.data = [];
+        }
+
+        print() {
+            console.log(this.data);
+        }
+          enqueue() {
+            this.data.push(item);
+          }
+        dequeue() {
+            this.data.shift();
+        }
+    }
+    var request = new Queue()
+    request.enqueue('scripts.js');
+    requests.print();
+    request.dequeue('scripts.js');
+    request.enqueue('style.js');
+    request.enqueue('imagem.png');
+    request.enqueue('doquinho.png');
+    requests.print();
+</script>
+
+</body>
+</html>
